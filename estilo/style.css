@@ -22,7 +22,6 @@ body {
 main {
     height:100vh;
     position: relative;
-    background-color: brown;
 }
 
 section#telefone {
@@ -33,5 +32,14 @@ section#telefone {
 
     height: 627px;
     width: 311px;
-    background: url('../imagens/frame-iphone.png') no-repeat;
+    background: url('../imagens/frame-iphone.png') no-repeat; /*imagem do cell*/
+}
+
+
+iframe#tela {
+    position: relative;
+    top: 81px;
+    left: 23px;
+    width: 266px;
+    height: 471px;
 }
